@@ -8,6 +8,31 @@ Hello World App with Enterprise Deploy Protocol
 - dev: https://enterprise-storybook.netlify.app/
 - storybook: https://enterprise-storybook.netlify.app
 
+## our config is...
+
+- GitHub Actions
+- Storybook
+- Jest
+- react-testing-library
+- netlify
+  - cache
+  - custom header
+- browserslist
+- commitlint
+- editorconfig
+- eslint
+- firebase
+- husky
+- lintstaged
+- npm
+- nvm
+- prettier
+- babel
+- firebase
+- TypeScript
+- vercel
+- webpack
+
 ## dev
 
 ```sh
