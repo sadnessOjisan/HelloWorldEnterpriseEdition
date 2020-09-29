@@ -1,0 +1,22 @@
+name: DEV
+
+on:
+  pull_request:
+    branches: ["*", "!master"]
+
+jobs:
+  release:
+    name: check version, add tag and release
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+          registry-url: "https://registry.npmjs.org"
+      - name: install
+        run: npm install
+      - name: build
+        run: npm run build:dev
