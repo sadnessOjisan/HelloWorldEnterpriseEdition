@@ -27,7 +27,7 @@ jobs:
         run: npm run format
       - name: build
         run: npm run build
-      - name: release
-        run: npm publish
+      - name: deploy
+        run: npm run deploy:prd
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

@@ -17,10 +17,14 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   resolve: {
-    extensions: [".ts", ".js", ".tsx"],
+    extensions: [".ts", ".css", ".tsx", ".js"],
   },
   plugins: [new HtmlWebpackPlugin({ template: "./src/index.html" })],
 };
