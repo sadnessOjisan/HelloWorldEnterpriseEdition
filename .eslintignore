@@ -1,1 +1,3 @@
 dist
+babel.config.js
+webpack.common.js

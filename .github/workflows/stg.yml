@@ -26,3 +26,8 @@ jobs:
         run: npm run format
       - name: build
         run: npm run build:prd
+      - name: STG Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
