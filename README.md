@@ -8,6 +8,15 @@ Hello World App with Enterprise Deploy Protocol
 - dev: vercel
 - storybook: netlify
 
+## dev
+
 ```sh
-npx babel src/** --out-dir dist
+# start
+npm run start:lcl
+
+# build
+npm run build:dev
+
+# storybook view
+npm run storybook
 ```

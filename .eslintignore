@@ -1,3 +1,4 @@
 dist
 babel.config.js
 webpack.*.js
+.eslintrc.js
