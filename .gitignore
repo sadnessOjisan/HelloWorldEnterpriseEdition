@@ -115,6 +115,5 @@ dist/*
 .yarn/install-state.gz
 .pnp.*
 
+storybook-static/*
 !.gitkeep
-
-storybook-static

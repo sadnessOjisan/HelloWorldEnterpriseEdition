@@ -5,6 +5,6 @@ import { App } from "./App";
 import "./style.css";
 
 ReactDOM.render(
-  <App message="This is Hello World Enterprise Edition!!"></App>,
+  <App message="Hello World !"></App>,
   document.getElementById("root")
 );

@@ -2,7 +2,7 @@
 
 Hello World App with Enterprise Deploy Protocol
 
-- prd: firebase
+- prd: https://helloworldenterpriseedition.web.app/
 - stg: https://enterprise-storybook.netlify.app/
 - stg-test: https://sadnessojisan.github.io/HelloWorldEnterpriseEdition
 - dev: https://enterprise-storybook.netlify.app/

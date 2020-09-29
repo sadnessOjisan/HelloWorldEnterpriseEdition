@@ -1,0 +1,5 @@
+[build]
+  publish = "storybook-static"
+
+[[plugins]]
+  package = "netlify-plugin-gatsby-cache"
