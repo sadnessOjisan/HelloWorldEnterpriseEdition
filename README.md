@@ -3,10 +3,10 @@
 Hello World App with Enterprise Deploy Protocol
 
 - prd: firebase
-- stg: vercel
+- stg: https://enterprise-storybook.netlify.app/
 - stg-test: https://sadnessojisan.github.io/HelloWorldEnterpriseEdition
-- dev: vercel
-- storybook: netlify
+- dev: https://enterprise-storybook.netlify.app/
+- storybook: https://enterprise-storybook.netlify.app
 
 ## dev
 

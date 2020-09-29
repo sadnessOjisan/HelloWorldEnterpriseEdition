@@ -28,6 +28,6 @@ jobs:
       - name: build
         run: npm run build:prd
       - name: deploy
-        run: npm run deploy:prd
+        run: npm run deploy:prd --token=${{ secrets.FIREBASE_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
