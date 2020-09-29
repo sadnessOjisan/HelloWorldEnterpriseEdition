@@ -1,5 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const outputPath = path.resolve(__dirname, "dist");
+
+exports.outputPath = outputPath;
 
 module.exports = {
   entry: "./src/index.tsx",
