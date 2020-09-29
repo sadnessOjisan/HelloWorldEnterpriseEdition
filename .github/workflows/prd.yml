@@ -1,4 +1,4 @@
-name: publish
+name: PRD
 on:
   push:
     tags:
@@ -25,8 +25,10 @@ jobs:
         run: npm run lint
       - name: format
         run: npm run format
+      - name: test
+        run: npm run test
       - name: build
-        run: npm run build:prd
+        run: npm run build:stg
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:

@@ -18,5 +18,13 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: install
         run: npm install
+      - name: typecheck
+        run: npm run typecheck
+      - name: lint
+        run: npm run lint
+      - name: format
+        run: npm run format
+      - name: test
+        run: npm run test
       - name: build
         run: npm run build:dev

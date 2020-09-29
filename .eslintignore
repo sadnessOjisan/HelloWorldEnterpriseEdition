@@ -2,3 +2,4 @@ dist
 babel.config.js
 webpack.*.js
 .eslintrc.js
+jest.config.js
