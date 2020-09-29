@@ -45,3 +45,7 @@ npm run build:dev
 # storybook view
 npm run storybook
 ```
+
+## Special Thanks
+
+This is inspired by [FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition).
