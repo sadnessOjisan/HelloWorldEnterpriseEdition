@@ -27,7 +27,9 @@ jobs:
         run: npm run format
       - name: build
         run: npm run build:prd
-      - name: deploy
-        run: npm run deploy:prd --token=${{ secrets.FIREBASE_TOKEN }}
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
