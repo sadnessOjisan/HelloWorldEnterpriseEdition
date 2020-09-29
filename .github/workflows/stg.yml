@@ -1,8 +1,9 @@
-name: publish
+name: STG
+
 on:
-  push:
-    tags:
-      - "v*"
+  pull_request:
+    branches: "master"
+
 jobs:
   release:
     name: check version, add tag and release
@@ -17,8 +18,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: install
         run: npm install
-      - name: Can Publish
-        run: npx can-npm-publish --verbose
       - name: typecheck
         run: npm run typecheck
       - name: lint
@@ -26,8 +25,4 @@ jobs:
       - name: format
         run: npm run format
       - name: build
-        run: npm run build
-      - name: release
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm run build:prd
