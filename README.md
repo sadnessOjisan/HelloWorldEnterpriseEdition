@@ -3,9 +3,9 @@
 Hello World App with Enterprise Deploy Protocol
 
 - prd: https://helloworldenterpriseedition.web.app/
-- stg: https://enterprise-storybook.netlify.app/
-- stg-test: https://sadnessojisan.github.io/HelloWorldEnterpriseEdition
-- dev: https://enterprise-storybook.netlify.app/
+- stg: hello-world-enterprise-edition.vercel.app
+- dev: hello-world-enterprise-edition.vercel.app
+- test: https://sadnessojisan.github.io/HelloWorldEnterpriseEdition
 - storybook: https://enterprise-storybook.netlify.app
 
 ## our config is...
