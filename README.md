@@ -1,37 +1,12 @@
 # HelloWorldEnterpriseEdition
 
-Hello World App with Enterprise Deploy Protocol
+Hello World for serious businessmen.
 
 - prd: https://helloworldenterpriseedition.web.app/
 - stg: https://hello-world-enterprise-edition.vercel.app
 - dev: https://hello-world-enterprise-edition.vercel.app
 - test: https://sadnessojisan.github.io/HelloWorldEnterpriseEdition
 - storybook: https://enterprise-storybook.netlify.app
-
-## our config is...
-
-- GitHub Actions
-- Storybook
-- Jest
-- react-testing-library
-- netlify
-  - cache
-  - custom header
-- browserslist
-- commitlint
-- editorconfig
-- eslint
-- firebase
-- husky
-- lintstaged
-- npm
-- nvm
-- prettier
-- babel
-- firebase
-- TypeScript
-- vercel
-- webpack
 
 ## dev
 
