@@ -1,2 +1,5 @@
-[core]
-	autocrlf = true
+*           text=auto
+*.txt       text
+*.vcproj    text eol=crlf
+*.sh        text eol=lf
+*.jpg       -text
