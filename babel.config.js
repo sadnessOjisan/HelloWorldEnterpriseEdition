@@ -1,4 +1,8 @@
 module.exports = {
   // TODO: preset を全部pluginにバラす
-  presets: ["@babel/env", "@babel/preset-react", "@babel/preset-typescript"],
+  plugins: [
+    ["@babel/plugin-transform-typescript", { isTSX: true }],
+    "@babel/plugin-transform-react-jsx",
+  ],
+  presets: ["@babel/env"],
 };
