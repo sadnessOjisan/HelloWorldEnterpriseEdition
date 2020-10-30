@@ -2,7 +2,9 @@ name: DEV
 
 on:
   pull_request:
-    branches: ["*", "!master"]
+    branches:
+      - "*"
+      - "!master"
 
 jobs:
   release:
