@@ -11,6 +11,7 @@ Hello World for serious businessmen.
 ## dev
 
 ```sh
+# package install
 npm install
 
 # start
